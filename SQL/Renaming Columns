@@ -1,0 +1,8 @@
+EXEC sp_rename 'inventory_records.Product_ID',  'product_id', 'COLUMN';
+EXEC sp_rename 'inventory_records.Product_Name',  'product_name', 'COLUMN';
+EXEC sp_rename 'inventory_records.Opening_Stock',  'opening_stock', 'COLUMN';
+EXEC sp_rename 'inventory_records.Purchase_Stock_in',  'stock_in', 'COLUMN';
+EXEC sp_rename 'inventory_records.Number_of_Units_Sold',  'units_sold', 'COLUMN';
+EXEC sp_rename 'inventory_records.Hand_In_Stock',  'closing_stock', 'COLUMN';
+EXEC sp_rename 'inventory_records.Cost_Price_Per_Unit_USD',  'cost_per_unit', 'COLUMN';
+EXEC sp_rename 'inventory_records.Cost_Price_Total_USD',  'total_closing_stock', 'COLUMN';
