@@ -1,0 +1,10 @@
+SELECT 
+    SUM(CASE WHEN product_id IS NULL THEN 1 ELSE 0 END) AS null_product_id,
+    SUM(CASE WHEN product_name IS NULL THEN 1 ELSE 0 END) AS null_product_name,
+    SUM(CASE WHEN opening_stock IS NULL THEN 1 ELSE 0 END) AS null_opening_stock,
+    SUM(CASE WHEN stock_in IS NULL THEN 1 ELSE 0 END) AS null_stock_in,
+    SUM(CASE WHEN units_sold IS NULL THEN 1 ELSE 0 END) AS null_units_sold,
+    SUM(CASE WHEN closing_stock IS NULL THEN 1 ELSE 0 END) AS null_hand_in_stock,
+    SUM(CASE WHEN cost_per_unit IS NULL THEN 1 ELSE 0 END) AS null_cost_price,
+    SUM(CASE WHEN total_closing_stock IS NULL THEN 1 ELSE 0 END) AS null_cost_price_total
+FROM inventory_records;
