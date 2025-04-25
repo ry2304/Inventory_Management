@@ -1,0 +1,4 @@
+SELECT COUNT(*) - COUNT(product_id) AS missing_product_id,
+       COUNT(*) - COUNT(opening_stock) AS missing_opening_stock,
+       COUNT(*) - COUNT(stock_in) AS missing_stock_in
+FROM inventory_records;
