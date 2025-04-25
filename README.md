@@ -17,7 +17,7 @@ Insights and recommendations are provided on the following key areas:
 - Restocking Costs
 - Product Profitability
 
-The SQL queries used for data cleaning and analysis are available [https://github.com/ry2304/Inventory_Management/tree/50a02f4f38c749ca6c157fa7cd33fed6d706032d/SQL](#).  
+The SQL queries used for data cleaning and analysis are available [here](#).
 The interactive Power BI dashboard is available [here](#).
 
 ---
