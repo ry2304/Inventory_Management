@@ -1,0 +1,5 @@
+SELECT TOP 5 product_id, product_name, 
+       SUM(units_sold * cost_per_unit) AS total_revenue
+FROM inventory_records
+GROUP BY product_id, product_name
+ORDER BY total_revenue DESC;
