@@ -2,7 +2,7 @@
 
 ## Project Background
 
-This project simulates an Inventory Management System for a mid-sized consumer electronics retail company. It was developed as part of my personal portfolio to demonstrate my data analytics skills while pursuing a degree in Computer Engineering.
+This project simulates an Inventory Management System for a mid-sized consumer electronics retail company. 
 
 The primary objective is to clean and analyze inventory data to:
 
@@ -36,8 +36,6 @@ The dataset contains product inventory information, including:
 - `closing_stock`: Remaining stock
 - `cost_per_unit`: Cost per item
 - `total_closing_stock`: Total value of the remaining inventory
-
-*Note: This is a simulated dataset created for educational purposes.*
 
 ---
 
