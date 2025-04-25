@@ -1,0 +1,24 @@
+ALTER TABLE inventory_records 
+ALTER COLUMN product_id INT;  
+
+ALTER TABLE inventory_records 
+ALTER COLUMN product_name VARCHAR(255);  
+
+ALTER TABLE inventory_records 
+ALTER COLUMN opening_stock INT;
+
+ALTER TABLE inventory_records 
+ALTER COLUMN stock_in INT;
+
+ALTER TABLE inventory_records 
+ALTER COLUMN units_sold INT; 
+
+ALTER TABLE inventory_records 
+ALTER COLUMN closing_stock INT; 
+
+ALTER TABLE inventory_records a
+ALTER COLUMN cost_per_unit DECIMAL(10,2);  
+
+ALTER TABLE inventory_records 
+ALTER COLUMN total_closing_stock DECIMAL(18,2); 
+
