@@ -18,7 +18,7 @@ Insights and recommendations are provided on the following key areas:
 - Product Profitability
 
 The SQL queries used for data cleaning and analysis are available [here](SQL).  
-The Power BI dashboard is available [here](#).
+The Power BI dashboard is available [here](Dashboard.png).
 
 ---
 
