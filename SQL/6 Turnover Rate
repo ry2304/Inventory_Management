@@ -1,0 +1,4 @@
+SELECT product_id, product_name, 
+       ROUND((SUM(units_sold) * 100.0 / CAST(SUM(opening_stock + stock_in) AS FLOAT)), 2) AS turnover_rate_percent
+FROM inventory_records
+GROUP BY product_id, product_name;
