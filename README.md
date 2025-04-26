@@ -19,6 +19,7 @@ Insights and recommendations are provided on the following key areas:
 
 The SQL queries used for data cleaning and analysis are available [here](SQL).  
 The Power BI dashboard is available [here](Dashboard.png).
+The dataset used for this project is available [here](Inventory_Records.xlsx): 
 
 ---
 
